@@ -8,7 +8,7 @@ import com.org.accentLeaflet.entities.Arch_1004901;
 import com.org.accentLeaflet.entities.ArchiveID;
 
 @CrossOrigin("*")
-@RepositoryRestResource
+@RepositoryRestResource(path = "archive")
 public interface ArchiveRepo extends JpaRepository<Arch_1004901, ArchiveID> {
 
 }
