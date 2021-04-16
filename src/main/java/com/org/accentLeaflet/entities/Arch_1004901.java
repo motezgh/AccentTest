@@ -1,13 +1,28 @@
 package com.org.accentLeaflet.entities;
 
-import java.time.LocalTime;
+import java.io.Serializable;
+import java.time.LocalDateTime;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.IdClass;
 
-public class Arch_1004901 {
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@Entity
+@IdClass(ArchiveID.class)
+@Data@AllArgsConstructor@NoArgsConstructor
+public class Arch_1004901 implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	@Id
-	private LocalTime date ;
+	private LocalDateTime date ;
 	
 	@Id
 	private Long id_device ;
@@ -56,28 +71,28 @@ public class Arch_1004901 {
 	
 	private float accum_odo ;
 	
-	private int do1 ;
+	private Integer do1 ;
 	
-	private int do2 ;
+	private Integer do2 ;
 	
-	private int do3 ;
+	private Integer do3 ;
 	
-	private int do4 ;
+	private Integer do4 ;
 	
-	private int di1 ;
+	private Integer di1 ;
 	
-	private int di2 ;
+	private Integer di2 ;
 	
-	private int di3 ;
+	private Integer di3 ;
 	
-	private int di4 ;
+	private Integer di4 ;
 	
-	private int an1 ;
+	private Integer an1 ;
 	
-	private int an2 ;
+	private Integer an2 ;
 	
-	private int an3 ;
+	private Integer an3 ;
 	
-	private int an4 ;
+	private Integer an4 ;
 	
 }
