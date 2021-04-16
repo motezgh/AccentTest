@@ -1,6 +1,5 @@
 package com.org.accentLeaflet.entities;
 
-<<<<<<< HEAD
 import java.time.LocalTime;
 
 import javax.persistence.Id;
@@ -81,8 +80,4 @@ public class Arch_1004901 {
 	
 	private int an4 ;
 	
-=======
-public class Arch_1004901 {
-
->>>>>>> 48e19de53c17830a89848e0aec53bdb6edf6a05c
 }
